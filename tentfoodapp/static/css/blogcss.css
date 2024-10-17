@@ -1,0 +1,180 @@
+﻿body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    
+}
+h1,h2,h3,header,footer{
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul #logo {
+    padding-right: 700px;
+    text-align: left;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: firebrick;
+    transition: 1.05s;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+main h2,p {
+    text-align: center;
+}
+main h1, #top-comment{
+    text-align: center;
+}
+#top-comment {
+    margin-top: -10px;
+}
+
+.post {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 50px;
+}
+#post-text h2 {
+    margin-top: 50px;
+}
+
+#post-text img{
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 15px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+#post-text #authorpost p{
+    text-align: left;
+    margin-left: 12px;
+}
+
+#post-text #authorpost {
+    display:flex;
+    text-align: center;
+}
+
+#post-text #authorpost #dateid {
+    margin-left: 500px;
+}
+
+#post-text #authorpost #authid {
+    margin-left: 15px;
+}
+
+#post-text h3{
+    font-weight: 300;
+}
+
+#post-text h4 {
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+}
+.like-button {
+    margin-left: 20px;
+    padding: 5px;
+    padding-inline: 7px;
+}
+
+.comments {
+    margin-top: 15px;
+    text-align: left;
+}
+.comment-section {
+    text-align: center;
+}
+.comment-img img{
+    max-width: 90px;
+    max-height: 90px;
+    float: left;
+    margin-left: 50px;
+    border-radius: 22px;
+}
+.comment-list p {
+    background-color: rgb(223, 218, 218);
+    padding: 20px;
+    margin-inline: 20px;
+    margin-left: 150px;
+    margin-right: 100px;
+    border-radius: 12px;
+}
+.comment-input {
+    width: 65%;
+    padding: 5px;
+    margin-top: -10px;
+    text-align: left;
+}
+.comment-button {
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.aside-content {
+    background-color: #33333363;
+    color: white;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    margin-top: 106px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 12px;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+footer #p2 {
+    margin-top: -20px;
+}
+
+@media (max-width: 768px) {
+    header, footer{
+        width: 768px;
+    }
+    nav ul #logo {
+    padding-right: 170px;
+    }
+}
